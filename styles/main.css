@@ -1,0 +1,43 @@
+@import url('http://fonts.cdnfonts.com/css/recoleta');
+
+:root{
+    --lime: #cff015;
+    --black: #000;
+    --font-size: 16px;
+    --green: rgba(56, 139, 8, 0.26);
+}
+body{
+    background-color: var(--lime);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--black);
+}
+a:hover{
+    text-decoration: underline;
+}
+.picture{
+    width: 350px;
+    height: 350px;
+}
+p{
+    font-size: var(--font-size);
+    font-family: 'recoleta';
+}
+.btn-dark{
+    background-color: var(--black);
+}
+.position-relative{
+    right: 40%;
+}
+.opaq{
+    background-color: var(--green);
+    border-radius: 30px;
+}
+input{
+    border: none;
+}
+.container{
+    border-radius: 30px;  
+}
+.text-dark{
+    color: var(--black);
+}
